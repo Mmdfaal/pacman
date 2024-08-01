@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid #000;
+    touch-action: none; /* Prevent scrolling on touch devices */
+}
+
+#score, #level, #message {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
